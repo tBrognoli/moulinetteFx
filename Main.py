@@ -212,7 +212,7 @@ while replay != "stop":
         prenomDest = input("Prenom du destinataire : ")
         mailTo = input("Mail du destinataire ('Fx' pour lui envoyer à son adresse IMIE): ")
         if mailTo == "Fx":
-            mailTo = "francois-xavier.wawrzyniak@imie.fr"
+            mailTo = "****************"
         objectMail = input("Objet du mail : ")
         print("Voici le contenu du mail : ")
         textMail = "Bonjour " + prenomDest +", \n\nLes contrôles du "+date+" sont en pièce jointe. \nBonne soirée.\n\nCordialement,\nLes "+ groupe
